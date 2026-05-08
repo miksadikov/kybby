@@ -1,0 +1,36 @@
+.git
+.gitignore
+.github
+
+.env
+.env.*
+!.env.example
+
+.venv
+venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.coverage
+htmlcov
+
+frontend/node_modules
+frontend/dist
+frontend/.vite
+
+.DS_Store
+.idea
+.vscode
+
+# Runtime data must live on Amvera persistent storage, not in the image.
+data
+out
+*.db
+*.sqlite
+*.sqlite3
+
+# Local build artifacts / logs
+logs
+*.log
