@@ -1,0 +1,35 @@
+{
+  "name": "BrandKit Demo",
+  "brand_id": "Brand123",
+  "style": {
+    "prompt": "modern minimal editorial, clean geometry, crisp edges, subtle grain, contemporary museum vibe",
+    "negative": ""
+  },
+  "palette": {
+    "primary": "#FF4FA3",
+    "secondary": "#8A6CFF",
+    "accent": "#2B2B2B"
+  },
+  "icon": {
+    "strokeWidth": 2,
+    "corner": "rounded",
+    "fill": "none"
+  },
+  "prompts": {
+    "icons": ["camera", "chat bubble", "map pin", "ticket"],
+    "patterns": ["abstract dots", "waves"],
+    "illustrations": ["city skyline", "museum facade"]
+  },
+  "openrouter": {
+    "model": "black-forest-labs/flux.2-flex",
+    "timeout_secs": 240,
+    "referer": "http://localhost",
+    "title": "BrandKit FLUX CLI",
+    "num_inference_steps": 20,
+    "guidance_scale": 3.5,
+    "image_config": {
+      "aspect_ratio": "1:1",
+      "image_size": "1K"
+    }
+  }
+}

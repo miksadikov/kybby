@@ -1,0 +1,47 @@
+{
+  "brand": {
+    "name": "Demo Brand"
+  },
+  "palette": {
+    "primary": "#5B7C99",
+    "secondary": "#E3E7ED",
+    "accent": "#1E2A33"
+  },
+  "style": {
+    "prompt": "clean minimal design, soft pastel palette, slightly grainy, modern UI aesthetic",
+    "negative": "text, watermark, logo, letters, blurry, low quality"
+  },
+  "icon": {
+    "strokeWidth": 2,
+    "corner": "rounded",
+    "fill": "outline"
+  },
+  "prompts": {
+    "icons": [
+      "camera",
+      "chat",
+      "settings",
+      "user",
+      "home",
+      "star",
+      "bell",
+      "heart"
+    ],
+    "patterns": [
+      "pattern-01",
+      "pattern-02",
+      "pattern-03",
+      "pattern-04"
+    ],
+    "illustrations": [
+      "illustration-01",
+      "illustration-02",
+      "illustration-03",
+      "illustration-04"
+    ]
+  },
+  "openrouter": {
+    "model": "bytedance-seed/seedream-4.5",
+    "timeout_secs": 180
+  }
+}
